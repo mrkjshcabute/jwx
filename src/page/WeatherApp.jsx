@@ -98,7 +98,7 @@ const WeatherApp = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white/20 p-4 py-8 w-full md:max-w-2xl">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white/20 p-4 py-8 w-full md:max-w-4xl">
 
       <div className="flex gap-2 w-full justify-between items-center h-full">
         
@@ -208,7 +208,7 @@ const WeatherApp = () => {
             {forecast.map((day, idx) => (
               <div
                 key={idx}
-                className={`min-w-[150px] flex-shrink-0 p-4 rounded-2xl shadow text-center ${
+                className={`min-w-[160px] flex-shrink-0 p-4 rounded-2xl shadow text-center ${
                   new Date(day.dt_txt).toDateString() === new Date().toDateString()
                     ? 'bg-purple-gradient text-white'
                     : 'bg-white'

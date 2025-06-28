@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body{
+  font-family: "Poppins", sans-serif;
+}
+
 .bg-purple-gradient{
     background: #D100D1;
     background: linear-gradient(172deg,rgba(209, 0, 209, 1) 0%, rgba(161, 0, 242, 1) 100%);
