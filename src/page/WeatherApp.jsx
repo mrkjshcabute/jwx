@@ -132,13 +132,13 @@ const WeatherApp = () => {
             <div className='flex'>
             <div className='flex bg-white px-4 py-1 pt-2 rounded-full'>
                 <CiLocationOn className='text-black h-6 w-6' />
-                <h2 className="text-md text-black text-nowrap font-semibold mb-1 ml-1">
+                <h2 className="text-sm md:text-md text-black text-nowrap font-semibold mb-1 ml-1">
                   {weather.name}, {weather.sys.country}
                 </h2>
               </div>
             </div>
 
-            <p className="text-[60px] text-start font-bold">
+            <p className="text-[48px] md:text-[60px] text-start font-bold">
               {Math.round(weather.main.temp)}°C
             </p>
 
@@ -153,7 +153,7 @@ const WeatherApp = () => {
               <img
                 src={getWeatherImage(weather.weather[0].description)}
                 alt={weather.weather[0].description}
-                className="w-24 md:w-48 h-24 md:h-48 mb-4"
+                className="w-32 md:w-48 h-32 md:h-48 mb-4"
               />
               <p className="capitalize font-semibold">{weather.weather[0].description}</p>
             </div>

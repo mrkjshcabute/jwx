@@ -1,12 +1,30 @@
-# React + Vite
+<div align="center">
+  <img src="src/assets/logo.png" alt="JWX Logo" width="200"/>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌦️ JWX - Josh Weather Experience
 
-Currently, two official plugins are available:
+**JWX** is a modern and minimal weather web app that lets users check real-time weather conditions and forecasts for any city. Designed for simplicity and clarity, JWX gives users the weather information they need at a glance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🌍 **Search City**: Get current weather data by entering any city name
+- 💧 **Humidity**: Displays current humidity levels
+- 🌬️ **Wind**: Shows wind speed
+- 🌧️ **Precipitation**: Displays rainfall data
+- 👀 **Visibility**: Provides visibility range in kilometers
+- 📅 **5-Day Forecast**: Shows upcoming daily weather overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- React JS
+- Tailwind CSS  
+- OpenWeatherMap API
+
+## 🌐 Live Demo
+
+[Visit JWX](https://jwx-swart.vercel.app/)
+
+## 📸 Preview
+
+![JWX Dashboard](public/screenshot/1.png)
